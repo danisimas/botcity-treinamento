@@ -47,16 +47,40 @@ def main():
     bot.headless = False
 
     # Uncomment to change the default Browser to Firefox
-    # bot.browser = Browser.FIREFOX
+    bot.browser = Browser.FIREFOX
 
     # Uncomment to set the WebDriver path
-    # bot.driver_path = "<path to your WebDriver binary>"
+    bot.driver_path = r"resources\geckodriver.exe"
 
     # Opens the BotCity website.
-    bot.browse("https://www.botcity.dev")
+    bot.browse("https://www.google.com")
+    bot.maximize_window()
 
-    # Implement here your logic...
-    ...
+    
+    if not bot.find( "btn_pesquisa", matching=0.97, waiting_time=10000):
+        not_found("btn_pesquisa")
+    bot.click()
+    
+
+    bot.paste("Cotação Dólar")
+    bot.enter()
+    
+    
+    if not bot.find( "ancora-dolar", matching=0.92, waiting_time=10000):
+        not_found("ancora-dolar")
+    bot.click_relative(53, 54)
+    
+
+    bot.mouse_down()
+    bot.move_relative(-100, 0)
+    bot.mouse_up()
+
+    bot.control_c()
+    valor_cotacao = bot.get_clipboard()
+    print(f"Dólar => R$ {valor_cotacao}")
+    
+
+    
 
     # Wait 3 seconds before closing
     bot.wait(3000)
