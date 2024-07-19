@@ -1,0 +1,35 @@
+1718985940498	geckodriver	INFO	Listening on 127.0.0.1:50877
+1718985943604	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\dsg02\\AppData\\Local\\Temp\\rust_mozprofilekiQbsX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718985944320	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718985944766	Marionette	INFO	Listening on port 50898
+Read port: 50898
+1718985944966	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.botcity.dev/, line 22: ReferenceError: Weglot is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.0/mixitup.min.js, line 16: Error: [MixItUp] An invalid selector or element reference was passed to the mixitup factory function
+JavaScript error: https://www.botcity.dev/, line 311: SyntaxError: redeclaration of const containerEl
+JavaScript error: https://herotofutags.com/sticky/v1.js, line 1: TypeError: window.herotofu is undefined
+JavaScript error: https://pt-br.botcity.dev/, line 23: ReferenceError: Weglot is not defined
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.0/mixitup.min.js, line 16: Error: [MixItUp] An invalid selector or element reference was passed to the mixitup factory function
+JavaScript error: https://pt-br.botcity.dev/, line 311: SyntaxError: redeclaration of const containerEl
+JavaScript error: https://herotofutags.com/sticky/v1.js, line 1: TypeError: window.herotofu is undefined
+1718985955620	Marionette	INFO	Stopped listening on port 50898
+Dynamically enable window occlusion 1
+1718986046854	geckodriver	INFO	Listening on 127.0.0.1:51118
+1718986049931	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\dsg02\\AppData\\Local\\Temp\\rust_mozprofileeDhu0E"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1718986053129	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1718986053230	Marionette	INFO	Listening on port 51140
+Read port: 51140
+1718986053360	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+1718986056841	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1718986083161	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
